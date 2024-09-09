@@ -3,18 +3,15 @@
   margin: 0;
   box-sizing: border-box;
 }
-body {
-  margin: 100px auto;
-}
+
 .cards {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  /* padding: 80px; */
-  /* margin: 0px 50px 0px; */
-  align-content: center;
+  justify-content: center;
   align-items: center;
+  height: 100vh;
 }
+
 .card-1,
 .card-2,
 .card-3 {
@@ -28,29 +25,38 @@ body {
   padding: 80px 30px;
   color: rgb(255, 255, 255);
 }
+
 .cards .card-1 .col-1 .hedading {
   font-size: 35px;
   font-weight: bold;
   text-transform: uppercase;
 }
+
 .cards .card-1 .col-1 img,
 .cards .card-1 .col-1 .hedading,
 .cards .card-1 .col-1 .prarg,
 .cards .card-1 .col-1 button {
   margin-top: 30px;
 }
+
 .cards .card-1 .col-1 img {
   margin-top: -35px;
 }
+
 .cards .card-1 .col-1 button {
   background-color: white;
   font-size: 25px;
   padding: 10px;
   border-radius: 14px;
   border: 0;
-
+  text-transform: capitalize;
   font-size: 20px;
 }
+
+.cards .card-1 .col-1:hover button {
+  background-color: rgb(237, 237, 237);
+}
+
 /* start card -2  */
 
 .card-2 {
@@ -58,28 +64,38 @@ body {
   padding: 80px 30px;
   color: rgb(255, 255, 255);
 }
+
 .cards .card-2 .col-2 .hedading {
   font-size: 35px;
   font-weight: bold;
   text-transform: uppercase;
 }
+
 .cards .card-2 .col-2 img,
 .cards .card-2 .col-2 .hedading,
 .cards .card-2 .col-2 .prarg,
 .cards .card-2 .col-2 button {
   margin-top: 30px;
 }
+
 .cards .card-2 .col-2 img {
   margin-top: -35px;
 }
+
 .cards .card-2 .col-2 button {
   background-color: white;
   font-size: 25px;
   padding: 10px;
   border-radius: 14px;
   border: 0;
+  text-transform: capitalize;
   font-size: 20px;
 }
+
+.cards .card-2 .col-2:hover button {
+  background-color: rgb(237, 237, 237);
+}
+
 /* start card -3  */
 
 .card-3 {
@@ -87,37 +103,56 @@ body {
   padding: 80px 30px;
   color: rgb(255, 255, 255);
 }
+
 .cards .card-3 .col-3 .hedading {
   font-size: 35px;
   font-weight: bold;
   text-transform: uppercase;
 }
+
 .cards .card-3 .col-3 img,
 .cards .card-3 .col-3 .hedading,
 .cards .card-3 .col-3 .prarg,
 .cards .card-3 .col-3 button {
   margin-top: 30px;
 }
+
 .cards .card-3 .col-3 img {
   margin-top: -35px;
 }
+
 .cards .card-3 .col-3 button {
   background-color: white;
   font-size: 25px;
   padding: 10px;
   border-radius: 14px;
   border: 0;
+  text-transform: capitalize;
   font-size: 20px;
 }
 
-@media (min-width: 0px) {
+.cards .card-3 .col-3:hover button {
+  background-color: rgb(237, 237, 237);
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 1052px) {
   .cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 10px 0px;
-    margin: 0px 50px 0px;
-    align-content: center;
-    align-items: center;
+    margin: 100px 0;
+    flex-direction: column;
+    flex-wrap: nowrap;
   }
 }
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* Extra extra large devices (extra large desktops, 1400px and up) */
+@media (min-width: 1400px) {}
