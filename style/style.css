@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 100px auto;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* padding: 80px; */
+  /* margin: 0px 50px 0px; */
+  align-content: center;
+  align-items: center;
+}
+.card-1,
+.card-2,
+.card-3 {
+  display: flex;
+  width: 350px;
+}
+
+/* satrt card-1 */
+.card-1 {
+  background-color: hsl(31, 77%, 52%);
+  padding: 80px 30px;
+  color: rgb(255, 255, 255);
+}
+.cards .card-1 .col-1 .hedading {
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.cards .card-1 .col-1 img,
+.cards .card-1 .col-1 .hedading,
+.cards .card-1 .col-1 .prarg,
+.cards .card-1 .col-1 button {
+  margin-top: 30px;
+}
+.cards .card-1 .col-1 img {
+  margin-top: -35px;
+}
+.cards .card-1 .col-1 button {
+  background-color: white;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 14px;
+  border: 0;
+
+  font-size: 20px;
+}
+/* start card -2  */
+
+.card-2 {
+  background-color: hsl(184, 100%, 22%);
+  padding: 80px 30px;
+  color: rgb(255, 255, 255);
+}
+.cards .card-2 .col-2 .hedading {
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.cards .card-2 .col-2 img,
+.cards .card-2 .col-2 .hedading,
+.cards .card-2 .col-2 .prarg,
+.cards .card-2 .col-2 button {
+  margin-top: 30px;
+}
+.cards .card-2 .col-2 img {
+  margin-top: -35px;
+}
+.cards .card-2 .col-2 button {
+  background-color: white;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 14px;
+  border: 0;
+  font-size: 20px;
+}
+/* start card -3  */
+
+.card-3 {
+  background-color: hsl(179, 100%, 13%);
+  padding: 80px 30px;
+  color: rgb(255, 255, 255);
+}
+.cards .card-3 .col-3 .hedading {
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.cards .card-3 .col-3 img,
+.cards .card-3 .col-3 .hedading,
+.cards .card-3 .col-3 .prarg,
+.cards .card-3 .col-3 button {
+  margin-top: 30px;
+}
+.cards .card-3 .col-3 img {
+  margin-top: -35px;
+}
+.cards .card-3 .col-3 button {
+  background-color: white;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 14px;
+  border: 0;
+  font-size: 20px;
+}
+
+@media (min-width: 0px) {
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+    margin: 0px 50px 0px;
+    align-content: center;
+    align-items: center;
+  }
+}
