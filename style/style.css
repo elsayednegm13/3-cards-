@@ -139,7 +139,7 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 1052px) {
   .cards {
-    margin: 80px 0;
+    margin: 340px auto;
     flex-direction: column;
     flex-wrap: nowrap;
   }
